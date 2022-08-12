@@ -126,6 +126,15 @@ html{
     background-color: gray;
     margin: 20px;
     display: flex; 
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.project-title{
+    font-size: 1.25rem;
+    color: #fdfdf5;
+    text-align: center;
+    padding: 0.5em 0;
 }
 
 .link-project{
