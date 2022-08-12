@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head.ejs')%>
+</head>
+<body>
+    <!-- MENU NAV -->
+    <header class="header-nav">
+        <nav id="navbar" class="nav-bar">
+            <ul class="nav-bar-ul">
+                <li class="nav-bar-ul-li"><a class="nav-link" href="#welcome-section" rel="noopener noreferrer">Sobre mí</a></li>
+                <li class="nav-bar-ul-li"><a class="nav-link" href="#title-projects" rel="noopener noreferrer">Proyectos</a></li>
+                <li class="nav-bar-ul-li"><a class="nav-link" href="#contact" rel="noopener noreferrer">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- seccion de presentacion -->
+    <section id="welcome-section" class="welcome-section">
+        <h1 class="h1-welcome">Hola! soy Alvaro</h1>
+        <p class="p-welcome">un desarrollador web junior</p>
+        <a class="cv-btn" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1nIPveeYr9B5g-UCXurVPpKhAZkrmhN1x/view">Descargar CV</a>
+    </section>
+    <!-- SECCION PROYECTOS MOSAICO CON FLEXBOX -->
+    <section id="projects" class="profect-file">
+        <h2 class="h2-projects" id="title-projects">Estos son algunos de mis proyectos</h2>
+        <div class="projects-container">
+            <div class="project" >
+                <a class="link-project project-tile" id="open_modal" href="#" rel="noopener noreferrer">
+                    <img class="img-project first" src="/images/portafolio.png" alt="img project"> 
+                    <p class="text-project first">Ver el Proyecto</p>
+                </a>
+            </div>
+            <div class="project" >
+                <a class="link-project project-tile" id="open_modal" href="#"  rel="noopener noreferrer">
+                    <img class="img-project second" src="/images/computer.png" alt="img project"> 
+                    <p class="text-project second">Ver el Proyecto</p>
+                </a>
+            </div>
+            <div class="project" >
+                <a class="link-project project-tile" id="open_modal" href="#"  rel="noopener noreferrer">
+                    <img class="img-project third" src="/images/webserver.png" alt="img project"> 
+                    <p class="text-project third">Ver el Proyecto</p>
+                </a>
+            </div>
+            <div class="project" >
+                <a class="link-project project-tile" id="open_modal" href="#"  rel="noopener noreferrer">
+                    <img class="img-project fourth" src="/images/api.png" alt="img project"> 
+                    <p class="text-project fourth">Ver el Proyecto</p>
+                </a>
+            </div>
+            <div class="project" >
+                <a class="link-project project-tile" id="open_modal" href="#" rel="noopener noreferrer">
+                    <img class="img-project fifth" src="/images/research.png" alt="img project"> 
+                    <p class="text-project fifth">Ver el Proyecto</p>
+                </a>
+            </div>
+        </div>
+        <div class="more-projects">
+            <a class="link-project text-project" rel="noopener noreferrer" target="_blank" href="https://github.com/IronBeagle70">Mostrar todo</a>
+        </div>
+    </section>
+    <!-- seccion de contacto -->
+    <section class="contact-section" id="contact">
+        <p class="p-contact">Trabajemos juntos!</p>
+        <p class="p-welcome">Cómo desea contactarme?</p>
+        <div class="social-media">
+            <ul class="ul-social">
+                <li class="li-social"><a class="link-social" target="_blank" href="https://www.facebook.com/zzz2123"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="li-social"><a class="link-social" target="_blank" href="https://github.com/IronBeagle70"><i class="fa-brands fa-github"></i></a></li>
+                <li class="li-social"><a class="link-social" target="_blank" href="https://www.linkedin.com/in/alvaro-mateo-mendoza-capcha-27907a248/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- seccion de footer -->
+    <footer class="footer-section">
+        <p>**PortScape Ver 1.0. Updates coming soon</p>
+        <p>&#169; Alvaro Mendoza</p>
+    </footer>
+    <!-- seccion modal -->
+    <section class="modal">
+        <div class="modal_container">
+            <div class="modal_img_container">
+
+            </div>
+            <div class="modal_title_container">
+                
+            </div>
+            <div class="description_modal_container">
+                
+            </div>
+            <div class="view_btn">
+                
+            </div>
+            <a href="#" class="modal_close"><img src="/images/close-148.svg" alt="close"></a>
+        </div>       
+    </section>
+    <!-- SCRIPTS -->
+    <%- include('partials/scripts.ejs')%>
+</body>
+</html>
