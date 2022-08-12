@@ -131,10 +131,10 @@ html{
 }
 
 .project-title{
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     color: #fdfdf5;
     text-align: center;
-    padding: 0.5em 0;
+    padding: 0.5em;
 }
 
 .link-project{
