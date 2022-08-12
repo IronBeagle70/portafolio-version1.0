@@ -3,7 +3,7 @@ const allProjects={
         "image":`<img class="modal_img" src="/images/port.PNG" alt="project_doc">`,
         "title":`<h2 class="modal_title">Mi Primer Portafolio</h2>`,
         "description": `<p class="description-modal">Versión 1.0 de mi portafolio donde están los proyectos que realize hasta el momento y está hecha con la santa trinidad de la web (HTML, CSS y JS)</p>`,
-        "link":`<a class="link_view" rel="noopener noreferrer" href="#">Ver Proyecto</a>`
+        "link":`<a class="link_view" target="_blank" rel="noopener noreferrer" href="https://github.com/IronBeagle70/portafolio-version1.0">Ver Proyecto</a>`
     },
     "gitPoo":{
         "image":`<img class="modal_img" src="/images/POO.PNG" alt="project_doc">`,
